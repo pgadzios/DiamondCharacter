@@ -1,6 +1,11 @@
 # DiamondCharacter
 This is a code output for the Code Dojo Diamond Kata (https://github.com/davidwhitney/CodeDojos/tree/master/Diamond%20Kata)
 
+## Original problem statement
+```
+Given a character from the alphabet, print a diamond of its output with that character being the midpoint of the diamond.
+```
+
 ## Some assumptions
  * Valid input characters are B-M
  * Lower case input characters allowed but sanitised to uppercase for consistency

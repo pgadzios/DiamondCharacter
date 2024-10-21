@@ -6,7 +6,7 @@ namespace DiamondCharacter.Test
     public class DiamondTests
     {
         [TestMethod]
-        [DataRow('A')]
+        [DataRow('@')]
         [DataRow('N')]
         [DataRow('O')]
         [DataRow('P')]

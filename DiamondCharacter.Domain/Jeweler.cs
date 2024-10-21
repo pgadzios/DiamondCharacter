@@ -6,7 +6,7 @@
         {
             if (!makeDiamondCommand.InputLetter.HasValue)
             {
-                return new MakeDiamondResult("Please specify an input letter B-M");
+                return new MakeDiamondResult("Please specify an input letter A-M");
             }
 
             try
@@ -17,7 +17,7 @@
             }
             catch (ArgumentOutOfRangeException)
             {
-                return new MakeDiamondResult("Please specify an input letter B-M");
+                return new MakeDiamondResult("Please specify an input letter A-M");
             }
         }
     }

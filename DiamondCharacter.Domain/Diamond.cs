@@ -22,8 +22,8 @@ namespace DiamonCharacter.Domain
 
             var letter = SanitiseToUpperCase(midpointLetter);
 
-            // Validate the input letter is within the allowed range of a diamond B-M
-            if (letter == 'A' || letter > 'M')
+            // Validate the input letter is within the allowed range of a diamond A-M
+            if (letter < 'A' || letter > 'M')
             {
                 throw new ArgumentOutOfRangeException(nameof(midpointLetter));
             }

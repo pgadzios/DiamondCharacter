@@ -10,7 +10,7 @@ namespace DiamondCharacter.ConsoleApp
             if(args.Length != 1
                 || args[0].Length != 1)
             {
-                Console.WriteLine($"Please pass in a single letter argument (valid values are 'B-M')");
+                Console.WriteLine($"Please pass in a single letter argument (valid values are 'A-M')");
                 return;
             }
 

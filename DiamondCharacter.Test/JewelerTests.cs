@@ -6,7 +6,6 @@ namespace DiamondCharacter.Test
     public class JewelerTests
     {
         [TestMethod]
-        [DataRow('a')]
         [DataRow('n')]
         [DataRow('o')]
         [DataRow('p')]
@@ -32,7 +31,9 @@ namespace DiamondCharacter.Test
         }
 
         [TestMethod]
+        [DataRow('a')]
         [DataRow('b')]
+        [DataRow('m')]
 
         public void MakeDiamond_returns_diamond(char inputLetter)
         {
